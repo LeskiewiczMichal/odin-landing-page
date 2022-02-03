@@ -87,7 +87,7 @@ ul {
     font-weight: 500;
 }
 
-/* Second page */
+/* SECOND PART OF THE PAGE */
 .two {
     background-color: #95ccd575;
     height: 600px;
@@ -136,3 +136,54 @@ ul {
     font-style: oblique;
 }
 
+/* THIRD PART OF THE PAGE */
+
+
+/* styling */
+.three {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/3rd-pg-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/* quoute container */
+.blockquote {
+    width: 500px;
+}
+
+/* quoute text styling */
+.blockquote-text {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+/* icon before the quote */
+.quote::before {
+    content: "\201c";
+    font-size: 100px;
+    color: #0f0095;
+    display: block;
+    margin-bottom: -40px;
+}
+
+
+/* quote credit styling */
+.blockquote-credit {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+/* dash before quote credit */
+.blockquote-credit::before {
+    content: "\2014\0020";
+}
