@@ -74,6 +74,7 @@ ul {
     color: black;
 }
 
+/* The welcoming on the first page */
 .welcoming {
     background-color: #f5f2e38a;
     align-self: center;
@@ -85,3 +86,53 @@ ul {
     color: #191608;
     font-weight: 500;
 }
+
+/* Second page */
+.two {
+    background-color: #95ccd575;
+    height: 600px;
+    /* display: flex; */
+    text-align: center;
+    padding-top: 50px;
+    border-top: 8px groove #778783;
+}
+
+/* heading on second part of page */
+.two h1 {
+    margin-bottom: 50px;
+    font-family: Verdana, Sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: rgba(255, 166, 0, 0.342) underline;
+    font-style: italic;
+}
+
+/* Container for images with text and styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* img styling in container */
+.image-container img {
+    width: 250px;
+    height: 250px;
+    border: 7px groove #2b3579;
+    border-radius: 20px;
+}
+
+/* text decoration under images */
+.img-text {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Helvetica;
+    font-style: oblique;
+}
+
