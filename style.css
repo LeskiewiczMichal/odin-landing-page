@@ -95,6 +95,7 @@ ul {
     text-align: center;
     padding-top: 50px;
     border-top: 8px groove #778783;
+    border-bottom: 8px groove #778783;
 }
 
 /* heading on second part of page */
