@@ -241,3 +241,13 @@ ul {
     font-size: 17px;
     font-weight: normal;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #e9a17b;
+    color: white;
+    letter-spacing: 7px;
+}
