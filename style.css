@@ -146,11 +146,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* make background image not move when scroling */
     background-image: url(./img/3rd-pg-background.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    
 }
 
 /* quoute container */
@@ -187,4 +188,56 @@ ul {
 /* dash before quote credit */
 .blockquote-credit::before {
     content: "\2014\0020";
+}
+
+/* FOURTH PART OF THE PAGE */
+
+.four {
+    height: 250px;
+    background-color: #95ccd575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container for text and button */
+.sign-up-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #478527;
+    padding: 30px 90px;
+    border-radius: 5px;
+    flex:1;
+    margin: 0 150px;
+    font-family: "Arial Narrow", sans-serif;
+}
+
+/* sign up button */
+.sign-up-container button {
+    color: white;
+    padding: 8px 25px;
+    background-color: #478527;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.sign-up-container button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* sign up text */
+.sign-up-text {
+    font-size: 27px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.little-text {
+    font-size: 17px;
+    font-weight: normal;
 }
