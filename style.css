@@ -198,6 +198,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 5px groove #778783;
+    border-bottom: 1px groove #778783;
 }
 
 /* container for text and button */
